@@ -1,0 +1,53 @@
+
+
+
+img{
+    width:600px;
+}
+
+body{
+background-color:lightblue;
+margin:auto;
+padding:10px;
+}
+
+/*
+ul,ol {
+  text-align: center;
+  list-style: inside;
+}
+*/
+
+.align-center{
+    text-align: center;
+}
+
+header div h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  font-family: 'Permanent Marker', cursive;
+  border-color:black;
+  border-width:10px;
+}
+
+
+
+hr{
+    height:auto;
+    background-color:red;
+    border-color:black;
+    width:600px;
+    transform:none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+footer div,header div {
+    background-color:red;
+}
+
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: pink;  }
