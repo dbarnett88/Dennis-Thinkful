@@ -1,3 +1,4 @@
+/*text wrapped in the center*/
 .wrapper{
     width:300px;
     margin:auto;
@@ -6,17 +7,17 @@
 img{
     width:600px;
 }
-
+/*page's background color*/
 body{
-background-color:lightblue;
-margin:auto;
-padding:10px;
+    background-color:lightblue;
+    margin:auto;
+    padding:10px;
 }
 
 .align-center{
     text-align: center;
 }
-
+/*header alignment*/
 header div h1 {
   text-align: center;
   font-size: 50px;
@@ -25,8 +26,6 @@ header div h1 {
   border-color:black;
   border-width:10px;
 }
-
-
 
 hr{
     height:auto;
@@ -41,7 +40,7 @@ hr{
 footer div,header div {
     background-color:red;
 }
-
+/*links color changes*/
 a:link    { color: blue;  }
 a:visited { color: red;   }
 a:hover   { color: green; }
